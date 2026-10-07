@@ -5,6 +5,7 @@ import unittest
 from calculator import (
     add_numbers,
     divide_numbers,
+    multiply_numbers,
     subtract_numbers,
 )
 
@@ -19,6 +20,10 @@ class CalculatorTests(unittest.TestCase):
     def test_subtract_numbers(self):
         """Проверяет вычитание."""
         self.assertEqual(subtract_numbers(10, 4), 6)
+
+    def test_multiply_numbers(self):
+        """Проверяет умножение."""
+        self.assertEqual(multiply_numbers(3, 4), 12)
 
     def test_divide_numbers(self):
         """Проверяет деление."""

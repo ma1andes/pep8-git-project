@@ -3,6 +3,7 @@
 from calculator import (
     add_numbers,
     divide_numbers,
+    multiply_numbers,
     subtract_numbers,
 )
 
@@ -14,6 +15,7 @@ def main():
 
     print("Сложение:", add_numbers(first_number, second_number))
     print("Вычитание:", subtract_numbers(first_number, second_number))
+    print("Умножение:", multiply_numbers(first_number, second_number))
     print("Деление:", divide_numbers(first_number, second_number))
 
 
