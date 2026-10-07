@@ -1,0 +1,21 @@
+Логи выполнения задания
+
+$ git status
+On branch feature/add-multiplication
+nothing to commit, working tree clean
+
+$ git log --oneline --decorate --all
+8dcb518 (HEAD -> feature/add-multiplication) Исправлены нарушения PEP 8
+bf0eb67 Добавлены изменения для проверки PEP 8
+52d469e Добавлена функция умножения
+30581d5 (main) initial commit
+
+$ black --check .
+All done! 3 files would be left unchanged.
+
+$ flake8 .
+Ошибок не обнаружено.
+
+$ python3 -m unittest -v
+Ran 5 tests in 0.000s
+OK
