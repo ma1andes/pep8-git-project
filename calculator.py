@@ -1,9 +1,8 @@
 """Функции для выполнения математических операций."""
 
 
-def add_numbers(first_number, second_number):
-    """Возвращает сумму двух чисел."""
-    return first_number + second_number
+def addNumbers(a,b):
+  return a+b
 
 
 def subtract_numbers(first_number, second_number):
